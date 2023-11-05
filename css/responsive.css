@@ -1,0 +1,51 @@
+#toggleButton {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: inherit;
+}
+
+#toggleButton span {
+    height: 3px;
+    width: 35px;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+#navbar {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+    position: fixed;
+    z-index: 9999;
+    background-color: aliceblue;
+    width: 50px;
+    border: 1px solid black;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav {
+    padding: 10px;
+    background-color: rgba(75, 49, 49, 0.356);
+}
+
+.ul {
+    margin: O;
+    padding: 0;
+    justify-content: left;
+}
